@@ -15,7 +15,7 @@ This repo is intentionally **not** written as a public “how to run it” tutor
 
 - **Frontend**: `frontend/movie-recommender-ai/`
 
-  - **UI**: Next.js (App Router) + Tailwind + Radix UI
+  - **UI**: Next.js (App Router) + Tailwind + shadcn/ui
   - **Local data**: `frontend/movie-recommender-ai/data/`
     - `movies_meta.json`: movie id/title (+ optional poster path)
     - `movie_vectors.json`: embedding vectors aligned by index with `movies_meta.json`
