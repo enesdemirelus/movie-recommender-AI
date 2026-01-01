@@ -69,13 +69,12 @@ movie_vectors = model.encode(
 np.save("movie_vectors.npy", movie_vectors)
 movies_df[["id", "title"]].to_csv("movies_meta.csv", index=False)
 
-# def recommend(title, n=10):
-#     idx = movies_df.index[movies_df["title"] == title][0]
-#     target_vec = movie_vectors[idx]
-#     scores = np.dot(movie_vectors, target_vec)
-#     scores = scores.numpy()
-#     top_indices = scores.argsort()[::-1][1:n+1]
-#     return movies_df.iloc[top_indices][["title"]]
+def recommend(title, n=10):
+    idx = movies_df.index[movies_df["title"] == title][0]
+    target_vec = movie_vectors[idx]
+    scores = np.dot(movie_vectors, target_vec)
+    top_indices = scores.argsort()[::-1][1:n+1]
+    return movies_df.iloc[top_indices][["title"]]
 
 
-# print(recommend("the avengers", n=10))
+print(recommend("the avengers", n=10))
