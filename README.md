@@ -2,16 +2,14 @@
 
 A personal, end-to-end movie recommendation project that combines a **modern Next.js UI** with **precomputed embedding vectors** to return **10 similar movies** for a selected title.
 
-This repo is intentionally **not** written as a public “how to run it” tutorial — it’s a showcase of the system design, UX, and recommendation approach.
-
 ## Preview
 
-| Screen                    | Light mode                                                                | Dark mode                                                               |
-| ------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| **Main page**             | ![Main page (light)](./docs/images/main-light.png)                        | ![Main page (dark)](./docs/images/main-dark.png)                        |
-| **Searching movie**       | ![Searching movie (light)](./docs/images/search-light.png)                | ![Searching movie (dark)](./docs/images/search-dark.png)                |
-| **Movie recommendations** | ![Movie recommendations (light)](./docs/images/recommendations-light.png) | ![Movie recommendations (dark)](./docs/images/recommendations-dark.png) |
-| **More movie details**    | ![More movie details (light)](./docs/images/details-light.png)            | ![More movie details (dark)](./docs/images/details-dark.png)            |
+| Screen                    | Light mode                                                                                            | Dark mode                                                                                           |
+| ------------------------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **Main page**             | <img src="./demo-images/light-page.png" alt="Main page (light)" width="420" />                        | <img src="./demo-images/dark-page.png" alt="Main page (dark)" width="420" />                        |
+| **Searching movie**       | <img src="./demo-images/light-search.png" alt="Searching movie (light)" width="420" />                | <img src="./demo-images/dark-search.png" alt="Searching movie (dark)" width="420" />                |
+| **Movie recommendations** | <img src="./demo-images/light-recommendations.png" alt="Movie recommendations (light)" width="420" /> | <img src="./demo-images/dark-recommendations.png" alt="Movie recommendations (dark)" width="420" /> |
+| **More movie details**    | <img src="./demo-images/light-more-details.png" alt="More movie details (light)" width="420" />       | <img src="./demo-images/dark-more-details.png" alt="More movie details (dark)" width="420" />       |
 
 ## Highlights
 
