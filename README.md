@@ -40,11 +40,6 @@ For a chosen movie with vector \(v\):
 
 The UI uses the JSON datasets in `frontend/movie-recommender-ai/data/`. The Python pipeline in `backend/single-selector-recommender/` is responsible for producing the underlying embeddings/metadata used during development.
 
-Generated artifacts you may see at the repo root (development leftovers):
-
-- `movie_vectors.npy`
-- `movies_meta.csv`
-
 ## Roadmap / ideas
 
 - Multi-select recommendations (**TODO**): content-based approach by blending vectors from multiple picks
