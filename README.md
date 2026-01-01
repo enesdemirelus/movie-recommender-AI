@@ -40,14 +40,7 @@ For a chosen movie with vector \(v\):
 
 The UI uses the JSON datasets in `frontend/movie-recommender-ai/data/`. The Python pipeline in `backend/single-selector-recommender/` is responsible for producing the underlying embeddings/metadata used during development.
 
-## Roadmap / ideas
-
-- Multi-select recommendations (**TODO**): content-based approach by blending vectors from multiple picks
-- Better ranking (cosine similarity, normalization, diversification)
-- Smarter filters (genres, year, runtime) + explanation UI (“recommended because…”)
-- Caching + incremental data refresh pipeline
-
 ## Credits
 
-- Dataset: TMDB 5000 movies/credits (used for experimentation)
-- Optional enrichment: TMDB API (when configured privately)
+- Dataset: TMDB 5000 movies/credits
+- TMDB API for poster images and more movie details.
