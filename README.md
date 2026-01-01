@@ -7,6 +7,7 @@ The current UI lets you pick a movie and returns **10 similar movies** using a p
 ## What’s in this repo
 
 - **Frontend**: `frontend/movie-recommender-ai/` (Next.js + Tailwind + Radix UI)
+
   - Uses local datasets in `frontend/movie-recommender-ai/data/`:
     - `movies_meta.json`: movie id/title (+ optional poster path)
     - `movie_vectors.json`: embedding vectors aligned by index with `movies_meta.json`
@@ -22,6 +23,7 @@ The current UI lets you pick a movie and returns **10 similar movies** using a p
 ## Quickstart (Frontend)
 
 Prereqs:
+
 - Node.js 18+ recommended
 
 From the frontend directory:
@@ -63,6 +65,7 @@ See `backend/README.md` for more details and suggested Python dependencies.
 ## How recommendations work (today)
 
 Given a selected movie:
+
 - Find its vector \(v\)
 - Score every other movie by dot product \(score_i = v \cdot v_i\)
 - Sort descending and return the top 10 (excluding the movie itself)
