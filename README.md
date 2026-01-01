@@ -4,6 +4,15 @@ A personal, end-to-end movie recommendation project that combines a **modern Nex
 
 This repo is intentionally **not** written as a public “how to run it” tutorial — it’s a showcase of the system design, UX, and recommendation approach.
 
+## Preview
+
+| Screen                    | Light mode                                                                | Dark mode                                                               |
+| ------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **Main page**             | ![Main page (light)](./docs/images/main-light.png)                        | ![Main page (dark)](./docs/images/main-dark.png)                        |
+| **Searching movie**       | ![Searching movie (light)](./docs/images/search-light.png)                | ![Searching movie (dark)](./docs/images/search-dark.png)                |
+| **Movie recommendations** | ![Movie recommendations (light)](./docs/images/recommendations-light.png) | ![Movie recommendations (dark)](./docs/images/recommendations-dark.png) |
+| **More movie details**    | ![More movie details (light)](./docs/images/details-light.png)            | ![More movie details (dark)](./docs/images/details-dark.png)            |
+
 ## Highlights
 
 - **Fast recommendations**: similarity search over precomputed vectors (no heavy model inference at request time)
